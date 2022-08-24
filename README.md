@@ -1,5 +1,5 @@
 # Ludeman-Thesis-Code
-Final error results of code. Run on video feeds the neural network has not been trained on. The video feeds were taken from the drone holding 20ft and 140ft while moving. The x axis is the a frame from video feed, taken once every second. Program runs at ~12FPS but to increase variety of the video feed, only a frame every second was used.
+Final error results of code. Run on video feeds the neural network has not been trained on. The video feeds were taken from the drone holding 20ft and 140ft while moving. The x axis is a frame from video feed, taken once every second. Program runs at ~12FPS but to increase variety of the video feed, only a frame every second was used.
 
 ![test20ft](https://github.com/jludeman-1/Ludeman-Thesis-Code/blob/main/examples/altErrEst20.png?raw=true)
 \
