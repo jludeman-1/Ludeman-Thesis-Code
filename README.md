@@ -1,15 +1,15 @@
 # Ludeman-Thesis-Code
 
-Abstract\
+Abstract
 
 
 Runway Location for Autonomous Aircraft Using Neural Networks and Computer Vision\
 
-John Ludeman, M.S.\
+John Ludeman, M.S.
 
-University of Nebraska, 2022\
+University of Nebraska, 2022
 
-Advisor: Dr. Qiuming Zhu\
+Advisor: Dr. Qiuming Zhu
 
 
 
