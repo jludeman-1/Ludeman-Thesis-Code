@@ -1,7 +1,7 @@
 # Ludeman-Thesis-Code
 
 Abstract\
-\
+
 
 Runway Location for Autonomous Aircraft Using Neural Networks and Computer Vision\
 
@@ -10,10 +10,10 @@ John Ludeman, M.S.\
 University of Nebraska, 2022\
 
 Advisor: Dr. Qiuming Zhu\
-\
 
 
-Recent advancements in neural network architecture coupled with increased graphics card processing power have allowed for the rise of real-time prediction. Proposed is\ a method of using a semantic segmentation neural network followed by computer vision methods and lens equations to recover the location of a runway and the \altitude of a drone from an image and a known runway dimension. The best performing neural network model had an intersect over union accuracy of 95.5% with an \inference speed of 12.5 frames per second. The final error in predicted altitude using the best of two developed methods was less than 15% on average, with a peak \error of 23.5%. 
+
+Recent advancements in neural network architecture coupled with increased graphics card processing power have allowed for the rise of real-time prediction. Proposed is a method of using a semantic segmentation neural network followed by computer vision methods and lens equations to recover the location of a runway and the altitude of a drone from an image and a known runway dimension. The best performing neural network model had an intersect over union accuracy of 95.5% with an inference speed of 12.5 frames per second. The final error in predicted altitude using the best of two developed methods was less than 15% on average, with a peak error of 23.5%. 
 \
 
 
