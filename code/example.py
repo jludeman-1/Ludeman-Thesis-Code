@@ -9,14 +9,14 @@ model.summary()
 model.load_weights("./pretrained_models/unet_16.h5")
 
 predArr = np.zeros([1,512,512,3])
-predArr[0] = np.array(Image.open("./images/1.png").resize((512, 512))) / 255
+predArr[0] = np.array(Image.open("./images/86.png").resize((512, 512))) / 255
 
 pred = model.predict(predArr)
 
 # Simple threshold
 thresh = pred[0] >= .6
 
-target = np.array(Image.open("./target/1.png").resize((512, 512))) / 255
+target = np.array(Image.open("./target/86.png").resize((512, 512))) / 255
 
 # Needs to be reshaped from [512,512] to [512,512,1]
 diff = thresh != target.reshape([512,512,1])
