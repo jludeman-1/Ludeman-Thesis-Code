@@ -19,6 +19,12 @@ def unetConvBlock(filters, kernel, input_layer, layer_num=''):
         x = Conv2D(filters, kernel, activation='relu', padding='same', kernel_initializer='he_normal', name='l' + layer_num + "conv2")(x)
 
         return x
+    else:
+        x = Conv2D(filters, kernel, activation='relu', padding='same', kernel_initializer='he_normal')(input_layer)
+        x = SpatialDropout2D(.2)(x)
+        x = Conv2D(filters, kernel, activation='relu', padding='same', kernel_initializer='he_normal')(x)
+
+        return x
 
 
 
