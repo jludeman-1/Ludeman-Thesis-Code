@@ -22,7 +22,7 @@ Recent advancements in neural network architecture coupled with increased graphi
 
 
 ## Results
-Final error results of code. Run on video feeds the neural network has not been trained on. The video feeds were taken from the drone holding 20ft and 140ft while moving. The x axis is a frame from video feed, taken once every second. Program runs at ~12FPS but to increase variety of the video feed, only a frame every second was used.
+Final error results of code. The figures below are based on video feeds the neural network has not been trained on. The video feeds were taken from the drone holding 20ft and 140ft of altitude while moving laterally. The x-axis is a frame from a video feed, taken once every second. The program runs at ~12FPS but to increase the variety of the video feed, only a frame every second was used. In the 140ft figure, the second method of width identification used is based on the corners of the runway. The slope method uses the slope of the lengthwise edge of the runway to recover width from the image. The slope was on average more accurate and had lower peak errors compared to using corners. The corner method was not used on the 20ft video feed, since at some points no runway corners are visible.
 <center>
 
 Figure below is for 20ft\
